@@ -1,0 +1,74 @@
+{
+  "flows": [
+    {
+      "channel": "Meta",
+      "headline": "About the book: El hermano de mi ex, with “Vuelve a leer GRATIS” on top",
+      "paywall_opens_on": "the cliffhanger of the free chapters: “The free chapters end here. The whole book is $2.69.”, the $5 top-up picked",
+      "note": "asks “Have you read on Booknet before?” and brings the library back after the chapter"
+    },
+    {
+      "channel": "Meta",
+      "headline": "About the book: La Obsesión Del Diablo, with “Primero vas a odiarlo…” on top",
+      "paywall_opens_on": "the cliffhanger: “Arya and Soren, all 50 chapters, for $3.19.”",
+      "note": "proof first: 5 372 likes, 644 840 reads and a reader’s comment above the price"
+    },
+    {
+      "channel": "Meta",
+      "headline": "About the book: Халепа для олігарха, opened in Ukrainian",
+      "paywall_opens_on": "the cliffhanger: “Find out what Dominika says to Davyd.”, behind “Buy the book · 99 грн”",
+      "note": "asks “Finished books, or ongoing ones?”"
+    }
+  ],
+  "prices": {
+    "top_ups": "$2, $5, $10 (Spain: 2,00 €, 6,00 €, 10,00 €)",
+    "books": "$2.69 · $3.19 · 99 грн",
+    "trial": "none",
+    "source": "US and Spanish App Store listings, In-App Purchases (“Top up the wallet for 2 / 5 / 10 USD”); book prices from the book pages on booknet.com and booknet.ua"
+  },
+  "today": {
+    "text": "every Meta ad opens the book page on booknet.com or booknet.ua in the browser; an install of the app opens on My Library",
+    "source": "audit_frames"
+  },
+  "asks": [
+    "Have you read on Booknet before?",
+    "Which hero do you fall for?",
+    "Finished books, or ongoing ones?"
+  ],
+  "paywall": {
+    "headline": "The free chapters end here. The whole book is $2.69.",
+    "uses_answers": false
+  },
+  "rebuild": "the install opens on the ad’s own book, the free chapters come before any account, and the buy sheet opens on the cliffhanger with the book’s price and the top-up that covers it",
+  "ideas": [
+    {
+      "n": 1,
+      "title": "Open the book from the ad, not the library",
+      "screen": "Arrive",
+      "outcome": "book purchases +10–20%"
+    },
+    {
+      "n": 2,
+      "title": "Read first, sign in after the purchase",
+      "screen": "Arrive · Account",
+      "outcome": "book purchases +5–10% · ARPU +10–17%"
+    },
+    {
+      "n": 3,
+      "title": "Sell the book where the free chapters end",
+      "screen": "Buy the book",
+      "outcome": "book purchases +10–15%"
+    },
+    {
+      "n": 4,
+      "title": "Make the top-up cover the book",
+      "screen": "Buy the book",
+      "outcome": "book purchases +5–15% · ARPU +5–10%"
+    },
+    {
+      "n": 5,
+      "title": "Keep the readers who close it",
+      "screen": "If they close",
+      "outcome": "ARPU +5–10%"
+    }
+  ]
+}
